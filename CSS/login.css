@@ -1,0 +1,77 @@
+/* ❤ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wallpaper{
+    position: absolute;
+    z-index: 1;
+}
+
+.box-main {
+    position: absolute;
+    z-index: 2;
+    height: 50%;
+    width: 400px;
+    margin-left: 37%;
+    margin-top: 200px;
+}
+
+.title{
+    color:#ffffff;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #f700ff,
+                     0 0 40px #8c00ff,
+                     0 0 55px #6200ff;
+    }
+}
+
+p {
+    display: inline-block;
+    color: rgb(207, 106, 253);
+
+}
+
+.card {
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.login,
+.senha {
+    border: none;
+    background-color: #ffffff;
+    padding: 9px 16px 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#button-login {
+    background-color: none;
+    margin-left: 145px;
+    height: 30px;
+    width: 150px;
+    margin-left: 145px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#button-registro {
+    margin-left: 145px;
+    height: 30px;
+    width: 150px;
+    margin-left: 145px;
+    margin-bottom: 15px;
+}
+
+.xambles {
+    font-size: 13px;
+    margin-left: 10px;
+}

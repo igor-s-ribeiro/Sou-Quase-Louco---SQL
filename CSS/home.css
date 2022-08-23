@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstbox {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.img-user {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 110px;
+    size: 1;
+    border-radius: 50%;
+}
+
+.name-user {
+    margin-left: 20px;
+}
+
+
+#v-pills-tabContent {
+    margin-left: 195px;
+    margin-top: 50px;
+    position: absolute;
+}
