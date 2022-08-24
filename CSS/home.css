@@ -16,21 +16,55 @@
 }
 
 .img-user {
-    margin-left: 20px;
+    margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 110px;
     size: 1;
     border-radius: 50%;
+    box-shadow: 0 0 1em rgb(207, 106, 253);
 }
 
 .name-user {
-    margin-left: 20px;
+    text-align: center;
 }
 
+.sub-title{
+    color: #fff;
+    position: absolute;
+    bottom: 0;    
+    font: bold 58pt arial;
+    text-shadow: rgb(207, 106, 253) 0.1em 0.1em 0.2em;
+}
 
 #v-pills-tabContent {
     margin-left: 195px;
     margin-top: 50px;
     position: absolute;
+}
+
+#v-pills-home {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: 220px;
+    right: 150px;
+}
+
+#button-menu {
+    margin-bottom: 0;
+    margin-left: 60px;
 }

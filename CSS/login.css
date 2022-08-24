@@ -21,15 +21,7 @@
 
 .title{
     color:#ffffff;
-    animation: neon 1s ease-in-out infinite alternate;
-}
-
-@keyframes neon {
-    from {
-        text-shadow: 0 0 35px #f700ff,
-                     0 0 40px #8c00ff,
-                     0 0 55px #6200ff;
-    }
+    text-shadow: rgb(207, 106, 253) 0.1em 0.1em 0.2em;
 }
 
 p {
