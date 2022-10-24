@@ -1,5 +1,5 @@
 # Sou-Quase-Louco---SQL
- ## Sistema criado para pratica de SQL / Exercícios / Estudos
+ ## Sistema criado para pratica de SQL / Exercícios / Estudos.
  
  
  Tela de Login (primary screen)
